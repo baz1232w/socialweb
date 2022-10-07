@@ -1,0 +1,30 @@
+.profile_info{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.image_background img{
+  max-height: 180px;
+  width: 100%;
+}
+
+.ava{
+  border-radius: 50%;
+  width: 100%;
+  max-width: 180px;
+}
+
+.info{
+  flex-basis: 80%;
+  padding: 0 5px;
+}
+
+.name{
+  font-size: 25px;
+}
+.aboutMe{
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+}

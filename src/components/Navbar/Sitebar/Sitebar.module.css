@@ -1,0 +1,63 @@
+.siteBar{
+    margin-top: 60px;
+}
+
+.tittle{
+    font-size: 35px;
+    color:  white;
+    padding: 0;
+
+    position: relative;
+}
+
+.tittle:after{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
+.friends{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 20px 0px;
+
+    text-align: center;
+}
+
+.name{
+    color: white;
+}
+
+.friendPhoto{
+    width: 100%;
+    max-width: 40px;
+    border-radius: 50%;
+
+    background-color: white;
+    border: 3px solid white;
+}
+
+.friendItem{
+    flex-basis: 50px;
+}
+
+@media (max-width: 1052px) {
+    .friends{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .friendItem{
+        flex-basis: 80px;
+    }
+}

@@ -1,0 +1,117 @@
+.container {
+    padding: 10px;
+}
+
+.preloader{
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin:10% auto;
+}
+
+.tittle{
+    margin: 20px 0;
+}
+
+.tittle span {
+    color: white;
+}
+
+.userItems{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.item_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 80px;
+}
+
+.item_1 img{
+    width: 100%;
+    max-width: 65px;
+    border-radius: 50%;
+}
+
+.item_2{
+    height: 100%;
+    max-height:min-content;
+
+    flex-basis: 65%;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+
+    padding:  5px 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.item_2:first-child{
+    text-align: left;
+}
+
+.item_2:last-child{
+    text-align: right;
+}
+
+.button {
+    margin: 10px 0;
+
+    display: block;
+    width: 100%;
+    max-width: 80px;
+
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color:darkblue;
+    color: white;
+    border: 0;
+
+    cursor: pointer;
+}
+
+.button:disabled{
+    background-color: gray;
+}
+
+.name{
+    text-align: left;
+}
+
+.info{
+    text-align: left;
+    margin-top: 20px ;
+    font-size: 12px;
+}
+
+.pageNav{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 300px;
+    margin: 30px auto;
+}
+.pageNav span{
+    display: inline-block;
+    width: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.changePage{
+    color: darkblue;
+}
+
+.selectPage{
+    color: white;
+    font-size: 20px;
+}
+
+
